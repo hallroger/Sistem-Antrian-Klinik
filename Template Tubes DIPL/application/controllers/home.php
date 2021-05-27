@@ -131,7 +131,6 @@ class home extends MY_Controller {
 				}
 			}
 		}
-
 	public function logout(){
 		$this->session->sess_destroy(); 
 		redirect('home'); 

@@ -136,6 +136,9 @@ class web extends MY_Controller {
 
 		redirect('web/dokter');	
 	}
+	public function TambahFeedback(){
+		
+	}
 }
 
 }
