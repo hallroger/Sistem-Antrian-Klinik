@@ -21,7 +21,7 @@ if($this->session->flashdata('message')){
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                    <input type="submit" class="form-control" placeholder="Feedback" name="feedback">
+                    <textarea name=" Feedback" rows="8" cols="40"></textarea>
                     <span class="glyphicon glyphicon-home form-control-feedback"></span>
                 </div>
                  
