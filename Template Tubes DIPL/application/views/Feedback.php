@@ -25,7 +25,7 @@ if($this->session->flashdata('message')){
                     <span class="glyphicon glyphicon-home form-control-feedback"></span>
                 </div>
                  
-                        <button type="submit" id="btnSignUp" class="btn btn-primary" style="width: 127px;">Register</button>
+                        <button type="submit" id="btnSignUp" class="btn btn-primary" style="width: 127px;">Submit</button>
                     </form>
                     
                 </div>
