@@ -6,7 +6,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><b>Carlota</b></a>
+        <a class="navbar-brand" href="#"><b>Sisteam Antrian Klinik</b></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
@@ -14,6 +14,7 @@
             <li><a href="<?php echo base_url('web/doctor'); ?>">Ask The Doctor</a></li>
             <li><a href="<?php echo base_url('web/contact'); ?>">Contact Us</a></li>
             <li><a href="<?php echo base_url('web/about'); ?>">About Us</a></li>
+            <li><a href="<?php echo base_url('web/feedback'); ?>">Feedback Us</a></li>
                        <?php
             if($this->session->userdata('role') == 'Dokter'){ 
                 ?>
