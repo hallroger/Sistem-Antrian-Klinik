@@ -70,8 +70,8 @@ class UserModel extends CI_Model {
 		} else {
 			return false;
 		}
-	public function insert_feedback($data){
+	#public function insert_feedback($data){
 		
-	}
+	#}
 	}
 }
