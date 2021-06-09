@@ -131,6 +131,24 @@ class home extends MY_Controller {
 				}
 			}
 		}
+	public function feedback(){
+			$nama = $this->input->post('nama_feedback');
+			$feedback = $this->input->post('feedback');
+			$data = array(
+				'username' => $nama_feedback,
+				'feedback' => $feedback,
+				)
+			$result = $this->UserModel->insert_new_profle($data);
+				if($result){
+					$this->session->set_flashdata('message', 'Feedback Berhasil, Terima Kasih Atas Feedback :)'); 
+					redirect('home/feedback');
+				} else {
+					$this->session->set_flashdata('message', 'Feedback Tidak berhasil dimasukkan'); 
+					redirect('home/feedback');
+				}	
+			);
+		}
+		
 	public function logout(){
 		$this->session->sess_destroy(); 
 		redirect('home'); 
