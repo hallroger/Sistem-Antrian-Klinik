@@ -136,8 +136,9 @@ class web extends MY_Controller {
 
 		redirect('web/dokter');	
 	}
-	public function TambahFeedback(){
-		
+	public function hapus_feedback(){
+		$this->UserModel->hapus_dokter($nid);
+		redirect('web/list_feedback');
 	}
 }
 
