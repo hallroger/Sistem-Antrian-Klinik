@@ -251,7 +251,7 @@ a:hover, a:active {
       <h4><small>RECENT POSTS</small></h4>
       <hr>
       <h2>Ini Yang Mungkin Terjadi Jika Physical Distancing Diakhiri Terlalu Cepat</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Post by Dr. Helmi R , Apr 19, 2020.</h5>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Dwayne , Apr 19, 2020.</h5>
       <h5><span class="label label-success">Kesehatan</span></h5><br>
       <p>Sudah hampir satu pekan, Wuhan sebagai kota virus corona SARS-CoV-2, penyebab penyakit COVID-19 bermula telah mengakhiri kebijakan lockdown.  Pemerintah setempat telah memaksa warga untuk tidak keluar atau masuk selama 14 minggu. Kebijakan ini diambil karena kasus aktif di Tiongkok kini hanya berjumlah 1.100 kasus saja. Selain itu sudah ada 77.800 orang yang sudah sembuh dari kondisi ini. Selain itu, Italia juga sejak Selasa (14/4) telah melonggarkan kebijakan lockdown. Berbeda dengan apa yang dilakukan di Wuhan, pelonggaran kebijakan ini dimaksudkan untuk memperbaiki ekonomi yang mulai merosot. Namun, beberapa pemilik toko dan pekerja setempat khawatir tindakan ini terlalu cepat untuk dilakukan. Sehingga mereka berpikir bahwa gelombang kedua bisa saja datang lagi.</p>
       <hr>
