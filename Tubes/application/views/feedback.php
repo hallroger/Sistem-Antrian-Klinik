@@ -1,4 +1,3 @@
-#Reuse Add Doctor Page
 <?php
 if($this->session->flashdata('message')){ 
   echo '<div class="alert alert-success">'.$this->session->flashdata('message').'</div>'; 
@@ -15,7 +14,7 @@ if($this->session->flashdata('message')){
                 </div>
                 <div class="modal-body">
                      <form action="<?php echo base_url('home/feedback'); ?>" method="post">
-                    <input type="hidden" class="form-control" placeholder="Role" name="role" value="Feedback"> #assign ke DB
+                    <input type="hidden" class="form-control" placeholder="Role" name="role" value="Feedback">
                      <div class="form-group has-feedback">
                     <input type="text" class="form-control" placeholder="Nama" name="nama">
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>

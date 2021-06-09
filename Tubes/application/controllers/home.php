@@ -138,8 +138,9 @@ class home extends MY_Controller {
 				'username' => $nama_feedback,
 				'feedback' => $feedback,
 				)
-			$result = $this->UserModel->insert_new_profle($data);
-				if($result){
+				$sql = "INSERT INTO feedback (nama_feedback, feedback)
+				VALUES ($nama,$feedback)";
+				if(mysqli_query($conn, $sql){
 					$this->session->set_flashdata('message', 'Feedback Berhasil, Terima Kasih Atas Feedback :)'); 
 					redirect('home/feedback');
 				} else {
