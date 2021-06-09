@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Carlota</title>
+    <title>Klinik Sehat</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -183,18 +183,19 @@ a:hover, a:active {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><b>Carlota</b></a>
+        <a class="navbar-brand" href="#"><b>Klinik Sehat V.0.0.1</b></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li><a href="http://localhost/Carlota/home/loginindex">Home</a></li>
-            <li><a href="http://localhost/Carlota/home/loginindex">Ask The Doctor</a></li>
-            <li><a href="http://localhost/Carlota/home/loginindex">Contact Us</a></li>
-            <li><a href="http://localhost/Carlota/home/loginindex">About Us</a></li>
+            <li><a href="http://localhost/Tubes/home/loginindex">Home</a></li>
+            <li><a href="http://localhost/Tubes/home/loginindex">Ask The Doctor</a></li>
+            <li><a href="http://localhost/Tubes/home/loginindex">Contact Us</a></li>
+            <li><a href="http://localhost/Tubes/home/loginindex">Feedback</a></li>
+            <><a href="http://localhost/Tubes/home/loginindex">About Us</a></>
                 
         </ul>
         <ul class="nav navbar-nav navbar-right">
-             <li><a href="http://localhost/Carlota/home/loginindex">Login</a></li>
+             <li><a href="http://localhost/Tubes/home/loginindex">Login</a></li>
         </ul>
     </div>
 </div>    </nav>
@@ -208,17 +209,17 @@ a:hover, a:active {
 
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="http://localhost/Carlota/assets/img/doctor.jpg" alt="Image">
+                <img src="http://localhost/Tubes/assets/img/doctor.jpg" alt="Image">
                 <div class="carousel-caption">
-                    <h3>Carlota</h3>
+                    <h3>Klinik Sehat </h3>
                     <p>Love you.</p>
                 </div>
             </div>
 
             <div class="item">
-                <img src="http://localhost/Carlota/assets/img/doctor.png" alt="Image">
+                <img src="http://localhost/Tubes/assets/img/doctor.png" alt="Image">
                 <div class="carousel-caption">
-                    <h3>Carlota</h3>
+                    <h3>Klinik Sehat </h3>
                     <p>Love you.</p>
                 </div>
             </div>
@@ -241,7 +242,7 @@ a:hover, a:active {
       <h4><small>RECENT POSTS</small></h4>
       <hr>
       <h2>HIV dan Virus Corona: Hal Apa Saja yang Harus Diperhatikan</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Post by Dr. Helmi R , Apr 19, 2020.</h5>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Admin , Apr 19, 2020.</h5>
       <h5><span class="label label-danger">Covid 19</span> <span class="label label-primary">Info</span></h5><br>
       <p>Meningkatnya kasus COVID-19 di seluruh dunia menyebabkan kekhawatiran yang luar biasa bagi penduduk dunia. Apalagi virus corona ini dikatakan lebih berbahaya jika diidap oleh mereka yang mempunyai penyakit bawaan seperti jantung, paru, diabetes, dan mereka yang memiliki kekebalan imun yang lemah. 
       Salah satu kekhawatiran tersebut akan dirasakan mereka yang merupakan pengidap HIV. Melansir Centers for Disease Control and Prevention (CDC), hingga kini belum ada bukti ilmiah yang menetapkan mereka yang hidup dengan HIV memiliki risiko tinggi terhadap COVID-19. Oleh karena itu, ada beberapa hal yang mesti diperhatikan para pengidap HIV yang memiliki sistem imun lemah selama pandemi ini berlangsung. </p>
