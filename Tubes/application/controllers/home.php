@@ -135,19 +135,18 @@ class home extends MY_Controller {
 			$nama = $this->input->post('nama_feedback');
 			$feedback = $this->input->post('feedback');
 			$data = array(
-				'username' => $nama_feedback,
+				'nama_feedback' => $nama,
 				'feedback' => $feedback,
-				)
-				$sql = "INSERT INTO feedback (nama_feedback, feedback)
-				VALUES ($nama,$feedback)";
-				if(mysqli_query($conn, $sql){
+			);
+			$result = $this->UserModel->insert_feedback($data);
+				if($result){
 					$this->session->set_flashdata('message', 'Feedback Berhasil, Terima Kasih Atas Feedback :)'); 
 					redirect('home/feedback');
 				} else {
 					$this->session->set_flashdata('message', 'Feedback Tidak berhasil dimasukkan'); 
 					redirect('home/feedback');
-				}	
-			);
+				}
+		
 		}
 		
 	public function logout(){
